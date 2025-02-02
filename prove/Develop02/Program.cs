@@ -17,6 +17,7 @@ class Program
             {
                 Entry entry = new Entry();
                 string date = entry.date();
+                // EXCEEDING REQUIREMENTS: date is automatically generated
                 string prompt = entry.getPrompt();
                 Console.WriteLine($"{date}");
                 Console.WriteLine($"{prompt}");
@@ -72,3 +73,4 @@ class Program
     }
 
 }
+
