@@ -41,6 +41,7 @@ class Journal
             entries.Clear();
             string[] lines = File.ReadAllLines(filePath);
             entries.AddRange(lines);
+            Console.WriteLine("Journal loaded.");
         }
     }
 }

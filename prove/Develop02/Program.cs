@@ -37,6 +37,7 @@ class Program
             {
                 Console.WriteLine();
                 journal.SaveToFile();
+                Console.WriteLine("Entry saved.");
                 // Save journal to file
                 // Promt for file name
             }  
