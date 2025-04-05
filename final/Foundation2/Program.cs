@@ -37,5 +37,6 @@ class Program
         Console.WriteLine("--------");
         Console.WriteLine($"Packing Label:\n{packingLabel2}\nShipping Label:\n{shippingLabel2}\nTotal Cost: ${totalCost2:F2}");
         Console.WriteLine();
+
     }
 }

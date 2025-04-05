@@ -40,7 +40,7 @@ public class Order
         string label = "";
         foreach (Product product in Products)
         {
-            label += $"Name: {product.Name} -- Product ID:{product.ProductID}\n";
+            label += $"Product Name: {product.Name} -- Product ID:{product.ProductID}\n";
         }
         return label;
     }
